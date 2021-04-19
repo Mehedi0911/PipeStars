@@ -22,7 +22,7 @@ function App() {
 
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
-      <h3>loggedin User:{loggedInUser.displayName} </h3>
+     
     <Router>
       <Switch>
         <Route exact path='/'>

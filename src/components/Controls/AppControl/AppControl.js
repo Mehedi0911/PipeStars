@@ -8,7 +8,7 @@ const AppControl = () => {
     const [isAdmins, setIsAdmin] = useState(false)
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     useEffect(() => {
-        const url = 'http://localhost:5000/allAdmins'
+        const url = 'https://peaceful-wildwood-58192.herokuapp.com/allAdmins'
         fetch(url)
         .then(res => res.json())
         .then(data => {

@@ -14,7 +14,7 @@ const AddProduct = () => {
                 price: data.servicePrice,
                 imgURL : imageURL
         }
-        const url = `http://localhost:5000/addServices`
+        const url = `https://peaceful-wildwood-58192.herokuapp.com/addServices`
         if (imageURL !== null) {
             fetch(url, {
                 method: 'POST',
