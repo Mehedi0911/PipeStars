@@ -1,38 +1,66 @@
 .App {
   text-align: center;
 }
+/* My custom classes */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.brand-text-primary{
+  font-family: 'Poppins', sans-serif;
+  color: #f4BC1C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.brand-text-secondary{
+  color: #171717;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.section-header{
+
+}
+
+.brand-span{
+
+}
+.brand-span-secondary{
+  color: #171717;
+  font-weight: 600;
+}
+
+.brand-background-primary{
+background: #f4BC1C;
+}
+
+.brand-background-secondary{
+  background: #171717;
+}
+
+.brand-btn-primary{
   color: white;
+  background: #f4BC1C;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  margin: 1rem;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.brand-btn-secondary{
+  color: white;
+  background: #171717;
+  outline: none;
+  border: none; border-radius: 5px;
+  padding: .5rem 1rem;
+  margin: 1rem;
+  font-family: 'Poppins', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.brand-btn-ternary{
+  color: white;
+  background: transparent;
+  outline: none;
+  border: 2px solid #f4BC1C;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  margin: 1rem;
+  font-family: 'Poppins', sans-serif;
 }
